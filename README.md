@@ -39,12 +39,13 @@
 
 ## 📁 Project Structure
 
-```skibidi
+```Structure
 /poke-dl
 │
 ├── start.bat
 ├── install-needs.bat
 ├── main-v2.py
-├── Api-db.json
 ├── ffmpeg.exe        <---- get it yourself
-├── downloaded/       <---- downloaded episodes go here
+├── LICENSE
+├── README.md
+└── downloaded/       <---- downloaded episodes go here

@@ -37,7 +37,7 @@
 
 ---
 ## 📥 Cloning The Repo
-Use
+Use:
 ```bash
 git clone https://github.com/TS-DEV-JAVA/Poke-dl.git
 cd poke-dl

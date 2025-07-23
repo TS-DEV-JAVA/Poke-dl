@@ -51,7 +51,7 @@ cd poke-dl
 
 ## 📁 Project Structure
 
-```python
+```text
 /poke-dl
 │
 ├── start.bat

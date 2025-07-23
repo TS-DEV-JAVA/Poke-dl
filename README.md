@@ -1,4 +1,4 @@
-# ❗ poke-dl 
+# ❗poke-dl
 
 ![Banner](https://files.catbox.moe/cyrinw.png)
 
@@ -39,5 +39,5 @@
 ├── install-needs.bat
 ├── main-v2.py
 ├── Api-db.json
-├── ffmpeg        <---- get it yourself
+├── ffmpeg.exe        <---- get it yourself
 ├── downloaded/   <---- downloaded episodes go here

@@ -9,6 +9,8 @@
 [![Status](https://img.shields.io/badge/Status-Working-green?style=for-the-badge&logo=checkmarx)]()
 [![Popularity](https://img.shields.io/badge/Popularity-Rising-orange?style=for-the-badge&logo=trending-up)]()
 [![Health](https://img.shields.io/badge/My%20Hands-Hurting-red?style=for-the-badge&logo=hands-wash)]()
+[![More Info](https://img.shields.io/badge/More%20Info-Here-informational?style=for-the-badge&logo=readme)](https://your-info-link.com)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-ff5e5b?style=for-the-badge&logo=kofi)](https://ko-fi.com/yourusername)
 
 ---
 

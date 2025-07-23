@@ -6,7 +6,8 @@
 [![Visit Website](https://img.shields.io/badge/Website-poke--dl.com-blue?style=for-the-badge&logo=google-chrome)](https://poke-dl.com)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)
 [![Download Latest](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
-[![Status](https://img.shields.io/badge/Status-Rising-yellow?style=for-the-badge&logo=rocket)]()
+[![Status](https://img.shields.io/badge/Status-Working-green?style=for-the-badge&logo=checkmarx)]()
+[![Popularity](https://img.shields.io/badge/Popularity-Rising-orange?style=for-the-badge&logo=trending-up)]()
 [![Health](https://img.shields.io/badge/My%20Hands-Hurting-red?style=for-the-badge&logo=hands-wash)]()
 
 ---

@@ -8,19 +8,30 @@
 
 - ✅ Download `.m3u8` video streams directly
 - ✅ Automatically saves output in a `downloaded` folder
-- ✅ Cross-platform (Windows, Linux, Mac)
-- ✅ Custom filename and format support
-- ✅ Colorful terminal prompts
+- ✅ Free
+- ✅ Open src
+- ✅ terminal prompts
 
 ---
+## 📁 Project Structure
+
+```python
+/poke-dl
+start.bat
+install-needs.bat
+main-v2.py
+ffmpeg <---- get it from [Here](https://ffmpeg.org/download.html)
+Api-db.json
+downloaded <----- downloaded episodes go here, its a dir
 
 ## Requirements
 
-- [`ffmpeg`](https://ffmpeg.org/download.html) installed and available in the same folder or system PATH
+- [`ffmpeg`](https://ffmpeg.org/download.html)
+in the same folder as thw project
 - Python 3.8+
+- Internet Connection
 - Pip packages:
   - `requests`
-
 Install the dependencies:
-```skibidi
+```python
 pip install requests

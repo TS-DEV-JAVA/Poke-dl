@@ -32,7 +32,7 @@
 ## 🛠️ Requirements
 
 - [**ffmpeg**](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)  
-- [**Python**](https://www.python.org)  
+- [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
 - Only `ffmpeg.exe` from the `bin` folder is needed  
 
 ---

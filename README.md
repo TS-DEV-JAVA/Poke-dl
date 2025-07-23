@@ -36,6 +36,12 @@
 - Only `ffmpeg.exe` from the `bin` folder is needed  
 
 ---
+## Cloning The Repo
+Use
+
+'''git
+git clone something
+
 
 ## 📁 Project Structure
 

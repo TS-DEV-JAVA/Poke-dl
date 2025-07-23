@@ -4,18 +4,19 @@
 
 ---
 
-## Features
+## ✅ Features
 
-- ✅ Download `.m3u8` video streams directly
-- ✅ Automatically saves output in a `downloaded` folder
-- ✅ Free
-- ✅ Open src
-- ✅ terminal prompts
+- Download `.m3u8` video streams directly
+- Automatically saves output in a `downloaded` folder
+- Free
+- Open src
+- Terminal prompts
 
 ---
+
 ## 📁 Project Structure
 
-```python
+```skibidi
 /poke-dl
 start.bat
 install-needs.bat
@@ -23,15 +24,3 @@ main-v2.py
 ffmpeg <---- get it from [Here](https://ffmpeg.org/download.html)
 Api-db.json
 downloaded <----- downloaded episodes go here, its a dir
-
-## Requirements
-
-- [`ffmpeg`](https://ffmpeg.org/download.html)
-in the same folder as thw project
-- Python 3.8+
-- Internet Connection
-- Pip packages:
-  - `requests`
-Install the dependencies:
-```python
-pip install requests

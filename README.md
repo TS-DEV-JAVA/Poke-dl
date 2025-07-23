@@ -4,7 +4,7 @@
 
 ---
 
-## ✅ Features
+## Features
 
 - Download `.m3u8` video streams directly
 - Automatically saves output in a `downloaded` folder
@@ -13,14 +13,17 @@
 - Terminal prompts
 
 ---
+## Needs
+- [**ffmpeg**](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
+- [**python**](https://python.org)
+- Only ffmpeg.exe from the bin folder
+## Project Structure
 
-## 📁 Project Structure
-
-```skibidi
+```python
 /poke-dl
 start.bat
 install-needs.bat
 main-v2.py
-ffmpeg <---- get it from [Here](https://ffmpeg.org/download.html)
+ffmpeg <---- get it yourself
 Api-db.json
 downloaded <----- downloaded episodes go here, its a dir

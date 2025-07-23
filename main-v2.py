@@ -4,7 +4,7 @@ import json
 import subprocess
 
 # config
-JSON_URL = "https://files.catbox.moe/z8a8i9.json"  
+JSON_URL = "https://raw.githubusercontent.com/TS-DEV-JAVA/Poke-dl-api/refs/heads/main/Api-db.json"  
 FFMPEG_EXE = "ffmpeg.exe"
 OUTPUT_DIR = "downloaded"
 

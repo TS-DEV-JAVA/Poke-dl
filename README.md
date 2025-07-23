@@ -1,4 +1,4 @@
-# poke-dl
+# ❗ poke-dl 
 
 ![Banner](https://files.catbox.moe/cyrinw.png)
 
@@ -8,7 +8,7 @@
 [![Download Latest](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
 
 ---
-## Description
+## 📝 Description
 
 **poke-dl** is a lightweight command-line tool for downloading Pokémon episodes from direct `.m3u8` stream links. Built for simplicity and speed, it's perfect for grabbing your favorite episodes easily.
 

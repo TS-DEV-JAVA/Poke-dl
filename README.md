@@ -39,7 +39,7 @@
 ## 📥 Cloning The Repo
 Use
 ```bash
-git clone something
+git clone https://github.com/TS-DEV-JAVA/Poke-dl.git
 cd poke-dl
 ```
 ## 📖 How To Use

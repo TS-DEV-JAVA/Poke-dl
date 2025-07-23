@@ -36,16 +36,22 @@
 - Only `ffmpeg.exe` from the `bin` folder is needed  
 
 ---
-## Cloning The Repo
+## 📥 Cloning The Repo
 Use
-
-'''git
+```bash
 git clone something
-
+cd poke-dl
+```
+## 📖 How To Use
+1 - Run "Start.bat"
+2 - pick a series
+3 - pick an episode
+4 - download
+5 - enjoy add free and offline pokemon experience.
 
 ## 📁 Project Structure
 
-```Structure
+```python
 /poke-dl
 │
 ├── start.bat

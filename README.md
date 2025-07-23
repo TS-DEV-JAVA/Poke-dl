@@ -10,7 +10,7 @@
 ---
 ## 📝 Description
 
-**poke-dl** is a lightweight command-line tool for downloading Pokémon episodes from direct `.m3u8` stream links. Built for simplicity and speed, it's perfect for grabbing your favorite episodes easily.
+**poke-dl** is a lightweight Python tool for downloading pokemon animie, its based on pokeflix m3u8 links, stored in a json, it uses ffmpeg to convert the m3u8 link into a watchable video 
 
 ---
 ## 📦 Features

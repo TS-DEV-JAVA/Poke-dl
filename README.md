@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB)]()
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&style=for-the-badge)](https://discord.gg/your-invite)
-[![Visit Website](https://img.shields.io/badge/Website-poke--dl.com-blue?style=for-the-badge&logo=google-chrome)](https://poke-dl.com)
+[![Visit Website](https://img.shields.io/badge/Website-poke--dl.com-blue?style=for-the-badge&logo=google-chrome)](https://ts-dev-java.github.io/Poke-dl/website/Index.html)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)
 [![Download Latest](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
 [![Status](https://img.shields.io/badge/Status-Working-green?style=for-the-badge&logo=checkmarx)]()

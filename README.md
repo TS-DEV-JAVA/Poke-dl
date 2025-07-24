@@ -76,3 +76,7 @@ cd poke-dl
 - 3.pick an episode
 - 4.download
 - 5.enjoy add free and offline pokemon experience.
+
+## 🎮 Demo
+
+![Demo](https://files.catbox.moe/lzj5jz.webp)

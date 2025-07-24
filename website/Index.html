@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>poke-dl - Download Pokémon Episodes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #1b1f23;
+      --primary: #ffcb05;
+      --accent: #3b4cca;
+      --text: #ffffff;
+      --muted: #c0c0c0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--accent);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      display: flex;
+      align-items: center;
+    }
+
+    header h1 img {
+      width: 32px;
+      margin-right: 10px;
+    }
+
+    .main {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .banner {
+      max-width: 900px;
+      width: 100%;
+      height: auto;
+      margin: 1rem auto 2rem auto;
+      display: block;
+      border-radius: 12px;
+    }
+
+    .main h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .main p {
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+
+    .buttons {
+      margin: 2rem 0;
+    }
+
+    .btn {
+      background-color: var(--primary);
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin: 0.3rem 0.5rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #ffe867;
+    }
+
+    .section {
+      margin-top: 3rem;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section h3 {
+      color: var(--primary);
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding: 1rem;
+      text-align: center;
+      background: #111417;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      background: #3776AB;
+      color: #FFD43B;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+
+    .badge img {
+      width: 20px;
+      margin-right: 8px;
+    }
+
+    #readme-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      z-index: 999;
+    }
+
+    #readme-box {
+      background: #1f1f1f;
+      max-width: 900px;
+      margin: 4% auto;
+      padding: 2rem;
+      border-radius: 12px;
+      overflow-y: auto;
+      max-height: 85vh;
+      color: white;
+    }
+
+    #readme-box h1, #readme-box h2, #readme-box h3 {
+      color: var(--primary);
+    }
+
+    #readme-box pre {
+      background: #2c2c2c;
+      padding: 0.75rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    #readme-box code {
+      color: #ffcb05;
+    }
+
+    #readme-close {
+      background: var(--primary);
+      color: black;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .main h2 {
+        font-size: 1.8rem;
+      }
+
+      .btn {
+        margin: 0.5rem 0;
+      }
+
+      .banner {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><img src="https://img.icons8.com/color/48/pokeball--v1.png" alt="Pokeball"> poke-dl</h1>
+    <a class="btn" href="https://github.com/ts-dev-java/poke-dl" target="_blank">GitHub</a>
+  </header>
+
+  <div class="main">
+    <img class="banner" src="https://files.catbox.moe/cyrinw.png" alt="poke-dl banner">
+
+    <h2>Download Pokémon Episodes Instantly</h2>
+    <p>A free, open-source tool to download full Pokémon episodes from Pokéflix using FFmpeg.</p>
+    
+    <div class="buttons">
+      <a class="btn" href="https://github.com/yourusername/poke-dl/releases/latest" target="_blank">Download</a>
+      <a class="btn" id="readme-btn"> View README</a>
+    </div>
+
+    <div class="badge">
+      <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
+      Made with Python
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Why I made This</h3>
+    <ol>
+      <li>i read that pokemon tv was shutting down because of cost issues, i saw that their wasn't a free and ad-free way to watch pokemon content anymore.</li>
+      <li>i was mad, so i took matter to my own hands, and made poke-dl, it uses an api i made, so it will never stop working !!</code>Make sure to give credit to the people who made ffmpeg</li>
+      <li>poke dl is free, never pay money for it, its also open src</li>
+    </ol>
+    <p>
+Supports all seasons, episodes, and series. JSON-based episode list is auto-updated.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 poke-dl | Not affiliated with Nintendo or Pokémon Company.
+  </footer>
+
+  <!-- README Modal -->
+  <div id="readme-modal">
+    <div id="readme-box">
+      <h2>README</h2>
+      <div id="readme-content">Loading...</div>
+      <button id="readme-close">Close</button>
+    </div>
+  </div>
+
+  <script>
+    const readmeBtn = document.getElementById('readme-btn');
+    const readmeModal = document.getElementById('readme-modal');
+    const readmeContent = document.getElementById('readme-content');
+    const readmeClose = document.getElementById('readme-close');
+
+    readmeBtn.addEventListener('click', () => {
+      readmeModal.style.display = 'block';
+      readmeContent.innerHTML = 'Loading README...';
+
+      fetch('https://raw.githubusercontent.com/TS-DEV-JAVA/poke-dl/main/README.md')
+        .then(res => res.text())
+        .then(md => {
+          readmeContent.innerHTML = marked.parse(md);
+        })
+        .catch(() => {
+          readmeContent.innerHTML = 'Failed to load README.';
+        });
+    });
+
+    readmeClose.addEventListener('click', () => {
+      readmeModal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === readmeModal) {
+        readmeModal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

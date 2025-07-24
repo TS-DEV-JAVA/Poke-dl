@@ -13,6 +13,16 @@
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&style=for-the-badge)](https://discord.gg/your-invite)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-ff5e5b?style=for-the-badge&logo=kofi)](https://ko-fi.com/yourusername)
 [![More Info](https://img.shields.io/badge/More%20Info-Here-informational?style=for-the-badge&logo=readme)](https://your-info-link.com)
+[![Issues](https://img.shields.io/github/issues/TS-DEV-JAVA/poke-dl?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA/poke-dl/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/TS-DEV-JAVA/poke-dl?style=for-the-badge&logo=git)](https://github.com/TS-DEV-JAVA/poke-dl/pulls)
+[![Forks](https://img.shields.io/github/forks/TS-DEV-JAVA/poke-dl?style=for-the-badge&logo=fork)](https://github.com/TS-DEV-JAVA/poke-dl/fork)
+[![Stars](https://img.shields.io/github/stars/TS-DEV-JAVA/poke-dl?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA/poke-dl/stargazers)
+[![Code Size](https://img.shields.io/github/languages/code-size/TS-DEV-JAVA/poke-dl?style=for-the-badge)](https://github.com/TS-DEV-JAVA/poke-dl)
+[![Lines of Code](https://img.shields.io/tokei/lines/github/TS-DEV-JAVA/poke-dl?style=for-the-badge)](https://github.com/TS-DEV-JAVA/poke-dl)
+[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)]()
+[![Security](https://img.shields.io/badge/Security-Trusted-brightgreen?style=for-the-badge&logo=shield)]()
+[![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
+[![Follow Dev](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
 
 ## 📝 Description
 

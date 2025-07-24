@@ -1,6 +1,6 @@
 # ❗poke-dl
 
-![Banner](https://files.catbox.moe/3f5l98.png)
+![Banner](https://files.catbox.moe/cyrinw.png)
 
 [![Version](https://img.shields.io/badge/Version-1.01-yellow?style=for-the-badge&logo=semver)]()
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)

@@ -3,7 +3,7 @@
 ![Banner](https://files.catbox.moe/cyrinw.png)
 
 [![Version](https://img.shields.io/badge/Version-1.01-yellow?style=for-the-badge&logo=semver)]()
-[![License](https://img.shields.io/badge/License-Apache-2.0-blue?style=for-the-badge&logo=license)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python)]()
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&style=for-the-badge)](https://discord.gg/your-invite)
 [![Visit Website](https://img.shields.io/badge/Website-poke--dl.com-blue?style=for-the-badge&logo=google-chrome)](https://poke-dl.com)

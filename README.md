@@ -63,4 +63,6 @@ cd poke-dl
 ├── ffmpeg.exe        <---- get it yourself
 ├── LICENSE
 ├── README.md
+├── website/Index.html
 └── downloaded/       <---- downloaded episodes go here
+```

@@ -34,9 +34,10 @@
 
 ## 🛠️ Requirements
 
-- [**ffmpeg**](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)  
+- [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe)  
 - [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
-- Only `ffmpeg.exe` from the `bin` folder is needed  
+- Only `ffmpeg.exe`, put it in the same folder as the project.
+- python has to be in system PATH, click on add python to system path. 
 
 ---
 ## 📥 Cloning The Repo

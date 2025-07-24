@@ -2,6 +2,7 @@
 
 ![Banner](https://files.catbox.moe/cyrinw.png)
 
+[![Version](https://img.shields.io/badge/Version-1.01-yellow?style=for-the-badge&logo=semver)]()
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&style=for-the-badge)](https://discord.gg/your-invite)
 [![Visit Website](https://img.shields.io/badge/Website-poke--dl.com-blue?style=for-the-badge&logo=google-chrome)](https://poke-dl.com)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)

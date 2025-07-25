@@ -22,7 +22,10 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)]()
 [![Security](https://img.shields.io/badge/Security-Trusted-brightgreen?style=for-the-badge&logo=shield)]()
 [![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
-[![Follow Dev](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
+[![Follow Dev](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA
+## Demo
+
+![poke-dl-demo](https://files.catbox.moe/lzj5jz.webp)
 
 ## Description
 
@@ -74,14 +77,14 @@ cd poke-dl
 └── downloaded/       <---- downloaded episodes go here
 ```
 ## How To Use
-- 1. Run `start.bat`
-- 2. pick a series
-- 3. pick an episode
-- 4. pick a file format
-- 5. pick a resolution
-- 4. download
-- 5. enjoy ad-free and offline pokemon experience.
+- 1.Run `start.bat`
+- 2.pick a series
+- 3.pick an episode
+- 4.pick a file format
+- 5.pick a resolution
+- 6.download
+- 7.enjoy ad-free and offline pokemon experience.
 
-## Demo
+## Demo again
 
-![poke-dl-demo](https://files.catbox.moe/lzj5jz.webp)
+![poke-dl-demo-again](https://files.catbox.moe/lzj5jz.webp)

@@ -85,4 +85,7 @@ cd poke-dl
 - 6.download
 - 7.enjoy ad-free and offline pokemon experience.
 
+---
+## Disclaimer
+
 **Disclaimer**: This project is an unofficial fan tool and is not affiliated with, endorsed by, or associated with The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. All trademarks and copyrights belong to their respective owners.

@@ -1,4 +1,4 @@
-# ❗poke-dl❗️
+# ❗Poke-dl❗️
 
 ![Banner](https://files.catbox.moe/cyrinw.png)
 [![Download Now](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
@@ -45,10 +45,10 @@ It uses Pokéflix `.m3u8` links stored in a JSON db, and relies on `ffmpeg` and 
 - [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe) 
 - [**yt-dlp**]() 
 - [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
-
-> Put `ffmpeg.exe` in the same folder as the project.
-> Also put `yt-dlp.exe` in the same folder as the project
-> Ensure Python is added to your system PATH when installing.
+────────────────────────────────────
+- Put `ffmpeg.exe` in the same folder as the project.
+- Also put `yt-dlp.exe` in the same folder as the project.
+- Ensure Python is added to your system PATH when installing.
 
 ---
 

@@ -84,7 +84,3 @@ cd poke-dl
 - 5.pick a resolution
 - 6.download
 - 7.enjoy ad-free and offline pokemon experience.
-
-## Demo again
-
-![poke-dl-demo-again](https://files.catbox.moe/lzj5jz.webp)

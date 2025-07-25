@@ -1,4 +1,4 @@
-# ❗poke-dl
+# ❗poke-dl❗️
 
 ![Banner](https://files.catbox.moe/cyrinw.png)
 [![Download Now](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
@@ -24,59 +24,64 @@
 [![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
 [![Follow Dev](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
 
-## 📝 Description
+## Description
 
 **poke-dl** is a lightweight Python tool for downloading Pokémon anime.  
-It uses Pokéflix `.m3u8` links stored in a JSON file, and relies on `ffmpeg` to convert them into watchable video files.
+It uses Pokéflix `.m3u8` links stored in a JSON db, and relies on `ffmpeg` and `yt-dlp` to convert them into watchable video files.
 
 ---
 
-## 📦 Features
+## Features
 
-- 🎥 Download `.m3u8` video streams directly  
-- 📁 Automatically saves output in a `downloaded` folder  
-- 🆓 Free & open source  
-- 💬 Simple terminal prompts  
+- Download `.m3u8` video streams directly  
+- Automatically saves output in a `downloaded` folder  
+- Free & open source  
+- Simple terminal prompts  
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
-- [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe)  
+- [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe) 
+- [**yt-dlp**]() 
 - [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
 
-> 💡 Put `ffmpeg.exe` in the same folder as the project.  
-> ✅ Ensure Python is added to your system PATH when installing.
+> Put `ffmpeg.exe` in the same folder as the project.
+> Also put `yt-dlp.exe` in the same folder as the project
+> Ensure Python is added to your system PATH when installing.
 
 ---
 
-## 📥 Cloning The Repo
-
+## Cloning The Repo
+Open up Command Prompt and use this command to clone the repo, or download the zip
 ```bash
 git clone https://github.com/TS-DEV-JAVA/Poke-dl.git
 cd poke-dl
 ```
-## 📁 Project Structure
+## Project Structure
 
 ```text
 /poke-dl
 │
 ├── start.bat
 ├── install-needs.bat
-├── main-v2.py
+├── main-v4.py
 ├── ffmpeg.exe        <---- get it yourself
+├── yt-dlp.exe        <---- also get it yourself
 ├── LICENSE
 ├── README.md
-├── website/Index.html
+├── website/index.html
 └── downloaded/       <---- downloaded episodes go here
 ```
-## 📖 How To Use
-- 1.Run "Start.bat"
-- 2.pick a series
-- 3.pick an episode
-- 4.download
-- 5.enjoy add free and offline pokemon experience.
+## How To Use
+- 1. Run `start.bat`
+- 2. pick a series
+- 3. pick an episode
+- 4. pick a file format
+- 5. pick a resolution
+- 4. download
+- 5. enjoy ad-free and offline pokemon experience.
 
-## 🎮 Demo
+## Demo
 
-![Demo](https://files.catbox.moe/lzj5jz.webp)
+![poke-dl-demo](https://files.catbox.moe/lzj5jz.webp)

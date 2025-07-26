@@ -6,7 +6,7 @@
 [![disclaimer](https://img.icons8.com/color/48/000000/error--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)
 [![download1](https://img.icons8.com/color/48/000000/download--v1.png)](https://idk.com)
 [![website1](https://img.icons8.com/color/48/000000/internet--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/index.html)
-[![Download Now](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
+[![Download source code](https://img.shields.io/badge/Download-Source-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
 [![Version](https://img.shields.io/badge/Version-4.01-yellow?style=for-the-badge&logo=semver)](#)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -53,7 +53,7 @@ It uses Pokéflix `.m3u8` links stored in a JSON db, and relies on `ffmpeg` and 
 - [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe) 
 - [**yt-dlp**]() 
 - [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
-────────────────────────────────────
+- ────────────────────────────────────
 - Put `ffmpeg.exe` in the same folder as the project.
 - Also put `yt-dlp.exe` in the same folder as the project.
 - Ensure Python is added to your system PATH when installing.

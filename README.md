@@ -29,6 +29,7 @@
 [![Security](https://img.shields.io/badge/Security-Trusted-brightgreen?style=for-the-badge&logo=shield)]()
 [![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
 [![Follow ts](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
+[![version-langs](https://img.shields.io/badge/Versions-Rust%20%7C%20JavaScript%20%7C%20Python%20%7C%20Golang%20%7C%20C%23-green?color=red&logo=code&style=flat)](https://github.com/TS-DEV-JAVA/Poke-dl)
 ## Demo
 
 [poke-dl-demo](https://v2.pkflx.com/hls/23-journeys/01/playlist.m3u8)

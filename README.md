@@ -3,11 +3,11 @@
 ![Banner](https://files.catbox.moe/cyrinw.png)
 [![My yt channel](https://img.icons8.com/color/48/000000/youtube-play.png)](https://example.com)
 [![join discord 1](https://img.icons8.com/color/48/000000/discord-logo.png)](https://discord.gg/idk) 
-[![disclaimer](https://img.icons8.com/color/48/000000/error--v1.png)](https://ts-dev-java.github.io/poke-dl/website/web-disclaimer.html)
+[![disclaimer](https://img.icons8.com/color/48/000000/error--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)
 [![download1](https://img.icons8.com/color/48/000000/download--v1.png)](https://idk.com)
-[![website1](https://img.icons8.com/color/48/000000/internet--v1.png)](https://ts-dev-java.github.io/poke-dl/website/index.html)
+[![website1](https://img.icons8.com/color/48/000000/internet--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/index.html)
 [![Download Now](https://img.shields.io/badge/Download-Now-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
-[![Version](https://img.shields.io/badge/Version-1.01-yellow?style=for-the-badge&logo=semver)](#)
+[![Version](https://img.shields.io/badge/Version-4.01-yellow?style=for-the-badge&logo=semver)](#)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Status](https://img.shields.io/badge/Status-Working-green?style=for-the-badge&logo=checkmarx)](#)
@@ -83,14 +83,14 @@ cd poke-dl
 ```
 ## How To Use
 - 1.Run `start.bat`
-- 2.pick a series
-- 3.pick an episode
-- 4.pick a file format
-- 5.pick a resolution
-- 6.download
-- 7.enjoy ad-free and offline pokemon experience.
+- 2.Pick a series
+- 3.Pick an episode
+- 4.Pick a file format
+- 5.Pick a resolution
+- 6.Download
+- 7.Enjoy ad-free and offline pokemon experience.
 
 ---
 ## Disclaimer
 
-**Disclaimer**: This project is an unofficial fan tool and is not affiliated with, endorsed by, or associated with The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. All trademarks and copyrights belong to their respective owners.
+**Disclaimer**: This project is an unofficial fan tool and is not affiliated with, endorsed by, or associated with The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. All trademarks and copyrights belong to their respective owners. [**click here for a more detailed disclaimer.**](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)

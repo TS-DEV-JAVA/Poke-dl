@@ -29,7 +29,12 @@
 [![Security](https://img.shields.io/badge/Security-Trusted-brightgreen?style=for-the-badge&logo=shield)]()
 [![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
 [![Follow ts](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
-[![versions-langs](https://img.shields.io/badge/Versions-Rust%20%7C%20JavaScript%20%7C%20Python%20%7C%20Golang%20%7C%20C%23-green?style=for-the-badge&logo=code&color=red)](https://github.com/ts-dev-java/Poke-dl)
+[![Versions](https://img.shields.io/badge/Versions:-green?style=for-the-badge&color=red)](https://github.com/yourusername/yourproject)
+![Rust](https://img.shields.io/badge/Rust-green?style=for-the-badge&logo=rust&logoColor=white&color=red)
+![JavaScript](https://img.shields.io/badge/JavaScript-green?style=for-the-badge&logo=javascript&logoColor=white&color=red)
+![Python](https://img.shields.io/badge/Python-green?style=for-the-badge&logo=python&logoColor=white&color=red)
+![Golang](https://img.shields.io/badge/Golang-green?style=for-the-badge&logo=go&logoColor=white&color=red)
+![C#](https://img.shields.io/badge/C%23-green?style=for-the-badge&logo=csharp&logoColor=white&color=red)
 ## Demo
 
 [poke-dl-demo](https://v2.pkflx.com/hls/23-journeys/01/playlist.m3u8)

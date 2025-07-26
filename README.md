@@ -6,6 +6,7 @@
 [![disclaimer](https://img.icons8.com/color/48/000000/error--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)
 [![download1](https://img.icons8.com/color/48/000000/download--v1.png)](https://idk.com)
 [![website1](https://img.icons8.com/color/48/000000/internet--v1.png)](https://ts-dev-java.github.io/Poke-dl/website/index.html)
+
 [![Download source code](https://img.shields.io/badge/Download-Source-success?style=for-the-badge&logo=github)](https://github.com/yourusername/poke-dl/releases/latest)
 [![Version](https://img.shields.io/badge/Version-4.01-yellow?style=for-the-badge&logo=semver)](#)
 [![Star on GitHub](https://img.shields.io/badge/Star-on%20GitHub-ff69b4?style=for-the-badge&logo=github)](https://github.com/ts-dev-java/poke-dl)
@@ -27,10 +28,13 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)]()
 [![Security](https://img.shields.io/badge/Security-Trusted-brightgreen?style=for-the-badge&logo=shield)]()
 [![YouTube](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourdemo)
-[![Follow Dev](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
+[![Follow ts](https://img.shields.io/badge/Follow-@TS--DEV--JAVA-blue?style=for-the-badge&logo=github)](https://github.com/TS-DEV-JAVA)
 ## Demo
 
 ![poke-dl-demo](https://files.catbox.moe/lzj5jz.webp)
+
+## Notes:
+If you download the executable version, you do not need to follow the instructions listed here, download the executable from [**Here**]() or from the download icon above.
 
 ## Description
 

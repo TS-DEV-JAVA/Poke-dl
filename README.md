@@ -34,7 +34,7 @@
 ![poke-dl-demo](https://files.catbox.moe/lzj5jz.webp)
 
 ## Notes:
-If you download the executable version, you do not need to follow the instructions listed here, download the executable from [**Here**]() or from the download icon above.
+If you download the executable version, you do not need to follow the instructions listed here, download the executable from [**Here**]() or from the download icon above, you don't need to even get the Requirements.
 
 ## Description
 

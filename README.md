@@ -102,7 +102,7 @@ cd poke-dl
 ## Other Builds/Versions...
 Click On the Image to download the GoLang Version:
 
-[![go-lang-version](https://files.catbox.moe/jx3un6.png)](here)
+[![go-lang-version](https://files.catbox.moe/lvy3hp.png)](here)
 
 Click On the Image to Download the Rust version:
 
@@ -110,7 +110,7 @@ Click On the Image to Download the Rust version:
 
 Click On the Image to download the C# Version:
 
-[![csharp-version](https://files.catbox.moe/wyy891.png)](here)
+[![csharp-version](https://files.catbox.moe/i5iv74.png)](here)
 
 Click On the Image to download the JavaScript Version:
 

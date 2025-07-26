@@ -100,5 +100,8 @@ cd poke-dl
 **Disclaimer**: This project is an unofficial fan tool and is not affiliated with, endorsed by, or associated with The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. All trademarks and copyrights belong to their respective owners. [**click here for a more detailed disclaimer.**](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)
 
 ## Other Versions...
+Click On the Image to download the GoLang Version:
+[![go-lang-version](https://files.catbox.moe/jx3un6.png)](here)
 
-[![go-lang-version](https://files.catbox.moe/76m76l.gif)](here)
+Click On the Image to Download the Rust version:
+[![rust-version](

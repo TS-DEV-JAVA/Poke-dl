@@ -108,7 +108,7 @@ cd poke-dl
 ## Other Builds/Versions...
 Click On the Image to download the GoLang Version:
 
-[![go-lang-version](https://files.catbox.moe/vyze7r.png)](here)
+[![go-lang-version](https://files.catbox.moe/fvd2ii.png)](here)
 
 Click On the Image to Download the Rust version:
 

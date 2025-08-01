@@ -60,10 +60,12 @@ It uses Pokéflix `.m3u8` links stored in a JSON db, and relies on `ffmpeg` and 
 
 ## Requirements
 
-- [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe) 
+- [**ffmpeg**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/1/ffmpeg.exe)
+- [**aria2**](https://github.com/TS-DEV-JAVA/Poke-dl/releases/download/Aria2/aria2c.exe)
+- [**mpv**]()
 - [**yt-dlp**]() 
 - [**Python**](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe)
-- ────────────────────────────────────
+- ───────────────────────────────────
 - Put `ffmpeg.exe` in the same folder as the project.
 - Also put `yt-dlp.exe` in the same folder as the project.
 - Ensure Python is added to your system PATH when installing.
@@ -106,6 +108,8 @@ cd poke-dl
 **Disclaimer**: This project is an unofficial fan tool and is not affiliated with, endorsed by, or associated with The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. All trademarks and copyrights belong to their respective owners. [**click here for a more detailed disclaimer.**](https://ts-dev-java.github.io/Poke-dl/website/web-disclaimer.html)
 
 ## Other Builds/Versions...
+### these are not maintained, just for other developers.
+
 Click On the Image to download the GoLang Version:
 
 [![go-lang-version](https://files.catbox.moe/fvd2ii.png)](here)

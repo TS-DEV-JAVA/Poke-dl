@@ -37,7 +37,12 @@
 ![C#](https://img.shields.io/badge/C%23-green?style=for-the-badge&logo=csharp&logoColor=white&color=red)
 ## Demo
 
-[poke-dl-demo](https://v2.pkflx.com/hls/23-journeys/01/playlist.m3u8)
+[poke-dl-demo](https://files.catbox.moe/23podr.png)
+[poke-dl-demo2](https://files.catbox.moe/sspv6j.png)
+[poke-dl-demo3](https://files.catbox.moe/2m0w81.png)
+[poke-dl-demo4](https://files.catbox.moe/2l3jbm.png)
+[poke-dl-demo5](https://files.catbox.moe/uyjb6g.png)
+[poke-dl-demo6](https://files.catbox.moe/vh9th4.png)
 
 ## Notes:
 If you download the executable version, you do not need to follow the instructions listed here, download the executable from [**Here**]() or from the download icon above, you don't need to even get the Requirements.

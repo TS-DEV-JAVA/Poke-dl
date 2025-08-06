@@ -1,0 +1,122 @@
+import cloudscraper
+from bs4 import BeautifulSoup
+import re
+import subprocess
+
+# Colors
+red   = "\033[38;5;196m"
+blue  = "\033[38;5;21m"
+green = "\033[38;5;46m"
+yellow= "\033[38;5;226m"
+reset = "\033[0m"
+
+def ask_download(link):
+    print(f"\n{yellow}[?] Would you like to download this? [y/n]{reset}")
+    choice = input("#> ").strip().lower()
+    if choice != 'y':
+        return
+
+    print(f"\n{blue}Video Resolution:{reset}")
+    print("1. 1080p\n2. 720p\n3. 480p\n4. 360p")
+    res_choice = input("#> ").strip()
+    resolutions = {
+        '1': '1080',
+        '2': '720',
+        '3': '480',
+        '4': '360',
+    }
+    resolution = resolutions.get(res_choice, '720')
+
+    print(f"\n{blue}File Format:{reset}")
+    print("1. mp4\n2. mkv\n3. webm\n4. mov")
+    fmt_choice = input("#> ").strip()
+    formats = {
+        '1': 'mp4',
+        '2': 'mkv',
+        '3': 'webm',
+        '4': 'mov',
+    }
+    file_format = formats.get(fmt_choice, 'mp4')
+
+    print(f"\n{green}[+] Downloading...{reset}")
+    cmd = [
+    "yt-dlp",
+    "-f", f"bestvideo[height<={resolution}]+bestaudio/best[height<={resolution}]",
+    "-o", "watch-url-downloads/%(title)s.%(ext)s",
+    "--merge-output-format", file_format,
+    link
+]
+    try:
+        subprocess.run(cmd)
+    except Exception as e:
+        print(f"{red}[-] Failed to run yt-dlp: {e}{reset}")
+
+def extract_m3u8_with_bs4(url):
+    try:
+        print(f"{green}[+] Fetching page: {url}{reset}")
+        headers = {
+            'User-Agent': (
+                'Mozilla/5.0 (Linux; Android 11; Pixel 5) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/115.0.5790.136 Mobile Safari/537.36'
+            ),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Connection': 'keep-alive',
+            'Referer': 'https://www.pokeflix.tv/',
+        }
+
+        scraper = cloudscraper.create_scraper()
+        res = scraper.get(url, headers=headers, timeout=10)
+        res.raise_for_status()
+
+        soup = BeautifulSoup(res.text, 'html.parser')
+        found_links = []
+
+        for tag in soup.find_all(['source', 'video', 'script']):
+            for attr in ['src', 'data-src']:
+                src = tag.get(attr, '')
+                if '.m3u8' in src:
+                    print(f"{blue}[+] Found .m3u8: {reset}{src}")
+                    found_links.append(src.strip())
+
+        fallback_links = re.findall(r'(https?://[^\s"\'<>]+\.m3u8)', res.text)
+        if fallback_links:
+            print(f"\n{yellow}[+] Found m3u8 streams:{reset}")
+            for i, link in enumerate(fallback_links, 1):
+                print(f"{i}. {link}")
+                found_links.append(link.strip())
+
+        if not found_links:
+            print(f"{red}[-] No .m3u8 stream found.{reset}")
+            return
+
+        # Remove duplicates
+        found_links = list(set(found_links))
+
+        # Ask to download each link found
+        for link in found_links:
+            ask_download(link)
+
+    except Exception as e:
+        print(f"{red}[-] Error: {e}{reset}")
+
+# === Banner ===
+print(f"""{red}
+╔═════════════════════════════════════════╗
+║    ____  __   ______           ______   ║
+║   / __ // /__/ __/ /  __      / ____/   ║
+║  / /_/ / //_/ /_/ / |/_/_____/ __/      ║
+║ / ____/ ,< / __/ />  </_____/ /___      ║
+║/_/   /_/|_/_/ /_/_/|_|     /_____/      ║
+╚═════════════════════════════════════════╝
+{reset}""")
+
+print(f"""{blue}User-Agents:
+Mozilla/5.0 (Linux; Android 11; Pixel 5) 
+AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/115.0.5790.136 Mobile Safari/537.36
+{reset}""")
+
+url = input(f"{green}[?] Enter the video page URL: {reset}")
+extract_m3u8_with_bs4(url)
